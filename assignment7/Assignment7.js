@@ -12,7 +12,7 @@ var express = require("express"),
      extended: false
  }));
 
- mongoose.connect('mongodb://localhost:27017/amazeriffic');
+ mongoose.connect('mongodb://localhost:27017');
 
  var ToDoSchema = mongoose.Schema({
      title: String,
