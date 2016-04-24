@@ -1,0 +1,132 @@
+body{
+    background:#f9e933;
+    font-family: 'Droid Sans', sans-serif;   
+    font-size: 100%;
+   
+   
+}
+
+h2{
+font-family: 'Ubuntu', sans-serif;
+font-size:xx-large;
+
+}
+h3{
+font-family: 'Ubuntu', sans-serif;
+font-size:x-large;
+}
+h4{
+font-family: 'Ubuntu', sans-serif;
+font-size:large;
+}
+h5{
+font-family: 'Ubuntu', sans-serif;
+font-size:large;
+
+}
+hr{
+width:855px;
+height:1px; 
+color:lightgray;
+padding:0;
+margin:auto;
+}
+
+.amaze{
+font-weight:bold;
+font-style:italic;
+color:red;
+}
+.container{
+   max-width:855px;
+   margin:auto;
+}
+header{
+     min-width:855px;
+    background: white;
+    overflow:auto;
+
+}
+header h1{
+    float:left;
+    width:570px;
+    color:maroon;
+    font-family: 'Ubuntu', sans-serif;
+    font-style:italic;
+    font-size:3em;
+    line-height:200%;
+}
+header nav{
+   float:right;
+   font-weight:bold;
+   width:285px;
+   line-height:400%;
+}
+footer{
+ min-width:855px;
+background:#f9e933;
+
+}
+
+main{
+   min-width:855px;
+   background:white;
+   min-height: 28em;
+}
+label{
+font-style:italic;
+
+}
+a{
+color:red;
+text-decoration:none;
+}
+a:hover{
+text-decoration:underline;
+}
+.content{
+float:left;
+width:570px;
+}
+.contact{
+float:left;
+line-height:150%;
+}
+.Sitemap {
+line-height:150%;
+width:285px;
+float:right;
+font-family: 'Droid Sans', sans-serif;
+font-weight:bold;
+}
+.button {
+ background-color: maroon; /* Green */
+ border: none;
+ color: white;
+ padding: 8px 16px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 2px 1px;
+/* transition-duration: 0.4s;*/
+ cursor: pointer;
+ }
+ .button:hover{
+ background-color:white;
+ border:2px solid maroon;
+ color:black;
+ }
+ .tabs a span{
+ display: inline-block;
+ border-radius: 5px 5px 0 0;
+ width:100px;
+ margin-right:10px;
+ text-align:center;
+ background:#ddd;
+ padding:5px;
+ }
+ .tabs a span.active{
+ background:#eee;
+ 
+ }
